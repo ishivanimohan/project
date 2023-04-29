@@ -1,5 +1,5 @@
 - hosts: all
   tasks:
    - name: create new container
-     shell: docker container run -itd --name newhtmlcontainer -p 9000:80 ishivanim/new-project:html1-server-image-v1
+     shell: docker container run -itd --name newhtml1container -p 9000:80 ishivanim/new-project:html1-server-image-v1
 
