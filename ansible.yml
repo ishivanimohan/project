@@ -1,5 +1,5 @@
 - hosts: all
   tasks:
    - name: create new container
-     shell: docker run -d --name project-devops -p 8080:80 html-server-image-v1
+     shell: docker run -d -p 8080:80 html-server-image-v1
      
